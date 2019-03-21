@@ -8,3 +8,6 @@
 ## 设备要求
 - 树莓派
 - 树莓派摄像头
+
+## 详细说明
+一切尽在[PicDiffer.ipynb](./PicDiffer.ipynb)中
