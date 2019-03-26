@@ -9,5 +9,9 @@
 - 树莓派
 - 树莓派摄像头
 
-## 详细说明
-一切尽在[PicDiffer.ipynb](./PicDiffer.ipynb)中
+## MarkDown文档
+因为似乎GitHub的Jupyter渲染引擎有时似乎会抽风，所以导出了一个MarkDown文档。
+[PicDiffer.md](./PicDifferMD/PicDiffer.md)
+
+## 源代码
+[PicDiffer.ipynb](./PicDiffer.ipynb)
