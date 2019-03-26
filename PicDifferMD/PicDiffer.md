@@ -128,8 +128,8 @@ image3=cv2.absdiff(image,image2)
 # 二值化
 image3 = cv2.threshold(image3, 25, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
     
-print('Different pixels:',image3[image3>0].size,'of',image3.size)
-diffRate=image3[image3>0].size/image3.size
+print('Different pixels:',image3[image3=0].size,'of',image3.size)
+diffRate=image3[image3=0].size/image3.size
 print('DiffRate=',diffRate)
 
 if diffRate>0.01:
@@ -138,8 +138,8 @@ else:
     print('They are same.')
 ```
 
-    Different pixels: 72688 of 76800
-    DiffRate= 0.9464583333333333
+    Different pixels: 4112 of 76800
+    DiffRate= 0.0535416666666667
     They are different.
 
 
